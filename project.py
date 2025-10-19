@@ -56,6 +56,8 @@ while True:
     print(f"{persona['BotName']}: {bot_reply}\n")
 
     # Clean display of conversation till now
-    print("-" * 50)
+    print("-" * 50) 
+    print('This is your conversation till now')
     print("\n".join(conversation_history))
-    print("-" * 50)
+    print("-" * 50) 
+
